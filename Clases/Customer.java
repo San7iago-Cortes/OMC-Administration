@@ -32,7 +32,7 @@ public class Customer {
         System.out.println("Contacting support via email: " + this.email);
     }
 
-    // Additional behavior
+    // Adicional
     public void printCustomerDetails() {
         System.out.println("Customer ID: " + this.customerId + "\nName: " + this.name + "\nType: " + this.type);
     }

@@ -14,11 +14,11 @@ public class Employee {
     }
 
     public void receiveOrder(Order order) {
-        System.out.println(this.name + " has received an order.");
+        System.out.println(this.name + " has received an new order.");
     }
 
     public void updateEmployeeRole(String newRole) {
         this.role = newRole;
-        System.out.println(this.name + "'s role updated to " + this.role);
+        System.out.println("The role of " + this.name + " has updated to " + this.role);
     }
 }
